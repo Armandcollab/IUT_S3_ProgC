@@ -6,7 +6,7 @@
 
 typedef struct Liste_s Liste_t;
 
-Liste_t *fusion(Liste_t *premierList, Liste_t *deuxiemeList);
-bool sousList(Liste_t *List, Liste_t *sousList);
+Liste_t *fusion(const Liste_t *premierList,const Liste_t *deuxiemeList);
+bool sousList(const Liste_t *List,const Liste_t *sousList);
 
 #endif
